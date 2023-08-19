@@ -47,7 +47,7 @@ export default function AllNotes() {
       </nav>
       <h1 style={{paddingLeft:'40px'}}>
         {notes.length === 0 && (
-          <span>No Notes Found</span>
+          <span>No Notes Found !</span>
         )}
         {notes.length > 0 && <span className="">My Notes</span>}
       </h1>
